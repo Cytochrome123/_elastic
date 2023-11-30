@@ -1,0 +1,21 @@
+POST http://localhost:4040/book
+content-type: application/json
+Authorization: Bearer essu_Y3psMmJrWlpkMEoxUzI1SFJESlRjMEp3TldFNk1YbDZaRk16TFZaVFNuVmhkMUV6TFRSaE1qRnRkdz09AAAAACK+Juw=
+
+{
+    "name": "Test5",
+    "description": "Testing"
+}
+
+GET http://localhost:4040/book/Test 5
+GET http://localhost:4040/books
+
+PUT http://localhost:4040/book/Test5
+content-type: application/json
+Authorization: Bearer essu_Y3psMmJrWlpkMEoxUzI1SFJESlRjMEp3TldFNk1YbDZaRk16TFZaVFNuVmhkMUV6TFRSaE1qRnRkdz09AAAAACK+Juw=
+
+{
+    "name": "Test 5"
+}
+
+DELETE http://localhost:4040/book/Test 5
